@@ -1,2 +1,27 @@
 intgraph-content
 ================
+
+This is the content repository of "intgraph.wizmann.tk".
+
+You may add some new problems here or correct some typos with sending some pull-requests.
+
+The rules about adding or modifying the problem list or something else is simple.
+
+* The problem here is about the problem may occur in the interview. Algorithm problems, system design problems, open ended problems or some other kinds of problem are welcomed.
+
+* The descriptions and solutions of the problem are suggested to use English.
+
+* If you want to paste a picture or a file, please find a reliable hosting service, as the network environment of China is so "good". (Say <del>fnck</del> thank you to Mr. Fang Binxing)
+
+* If you want to paste some code, you'd better use the syntax highlight.
+
+* As the parsing tool of the problem description language (a fixure of markdown and ini) is not fully tested, your pull-request might be modified to make the tool happy. :)
+
+* The format and more details about how to add a problem, see: intgraph.wizmam.tk/Contribute.html
+
+
+Moody _"Kuuy"_ Wizmann
+
+mail.kuuy@gmail.com
+
+

@@ -13,15 +13,19 @@ I create a new type of markdown by pyparsing, and I consider that the "new langu
 There are four sessions of this file.
 
 * Metadata
+
 Indicate the title and the adding time of this problem.
 
 * Tags
+
 The tags are used to filter the problem from the whole list. And there are three kind of tags. First one is "difficulty". And the second is "categories", which indicates the type of the problem. The last one is "source", which tells the origin of the problem. (It's OK to have a "unknown" source if you don't quite clear where this problem is from.)
 
 * Description
+
 The description of the problem, and I know it's easy to understand. :)
 
 * Solution
+
 The solution of the problem, and it will be hide before the readers click the "show" button. It's the right place to put the answers.
 
 ## The difficulty of the problem

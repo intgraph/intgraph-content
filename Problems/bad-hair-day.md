@@ -44,7 +44,7 @@ Link: http://poj.org/problem?id=3250
 
 [Solution]
 
-* Thinkin' in Rerverse *
+*Thinkin' in Rerverse*
 
 "How many cows can be seen by a specific cow?" => "How many cows are able to see a specific cow?"
 

@@ -16,7 +16,7 @@ And do some other things with the results.
 
 Run by
 
-```ShellSession
+```
 $./example.sh 'ps aux'
 ```
 

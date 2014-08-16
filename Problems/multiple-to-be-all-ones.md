@@ -1,6 +1,6 @@
 [Metadata]
 title: Multiple to be all ones
-date: 2014-08-16 15:58
+date: 2014-08-16 15:58:00
 
 [Tags]
 difficulty: 3

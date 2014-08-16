@@ -28,6 +28,8 @@ In shell script
 #How to run the command
 ```
 
+contribute by: violet
+
 [Solution]
 Use pipeline with echo
 

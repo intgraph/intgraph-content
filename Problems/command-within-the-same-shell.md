@@ -15,18 +15,17 @@ For example, you have to list all the process when you start a shell, of course 
 And do some other things with the results.
 
 Run by
-```
-$./example.sh 'ps aux'
 
+```ShellSession
+$./example.sh 'ps aux'
 ```
 
 In shell script
 
-```
+```bash
 #!/bin/bash
 
 #How to run the command
-
 ```
 
 [Solution]
@@ -40,5 +39,3 @@ echo $* | bash
 #do something else
 ```
 
-[Contributor]
-violet

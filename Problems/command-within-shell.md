@@ -1,11 +1,11 @@
 [Metadata]
-title: Command Within Shell
+title: Command Within The Same Shell
 date:  2014-08-16 18:46:00
 
 [Tags]
 difficulty: 1
-categories: pipeline
-source: violet's mind
+categories: pipeline, shell
+source: unknown
 
 [Description]
 Suppose that you have to write a script to receive argument from command line, which is another command.
@@ -31,7 +31,8 @@ In shell script
 
 [Solution]
 Use pipeline with echo
-```
+
+```bash
 #!/bin/bash
 
 echo $* | bash
@@ -39,3 +40,5 @@ echo $* | bash
 #do something else
 ```
 
+[Contributor]
+violet

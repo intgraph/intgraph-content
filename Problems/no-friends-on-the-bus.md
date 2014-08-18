@@ -13,7 +13,7 @@ There's a school which have k buses and n students. The school planned to take t
 Your mission is to arrange the students in the buses so that no two students become close friends. Two students will become close friends if and only if they are in the same buses for all d days.
 
 Input
-The first line of input contains three space-separated integers n, k, d (1 ≤ n, d ≤ 1000; 1 ≤ k ≤ 1e9).
+The first line of input contains three space-separated integers n, k, d (1 ≤ n, d ≤ 1000; 1 ≤ k ≤ 1e9).
 
 Output
 If there is no valid arrangement just print -1. Otherwise print d lines, in each of them print n integers. The j-th integer of the i-th line shows which bus the j-th student has to take on the i-th day. You can assume that the buses are numbered from 1 to k.

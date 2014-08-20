@@ -3,7 +3,7 @@ title: Connect n ropes with minimum cost
 date: 2014-08-19 11:03:00
 
 [Tags]
-difficutly: 2.5
+difficulty: 2.5
 categories: priority-queue, huffman coding, heap
 source: geeksforgeeks, POJ
 

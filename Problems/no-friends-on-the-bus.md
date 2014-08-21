@@ -4,7 +4,7 @@ date: 2014-08-18 23:02:26
 
 [Tags]
 difficulty: 4
-categories: constructive algorithms, combinatorics
+categories: constructive, combinatorics
 source: codeforces
 
 [Description]

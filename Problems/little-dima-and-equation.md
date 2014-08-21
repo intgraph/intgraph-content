@@ -4,7 +4,7 @@ date: 2014-08-21 14:57:00
 
 [Tags]
 difficulty: 2.5
-tags: implementation
+categories: implementation
 source: codeforces
 
 [Description]

@@ -28,6 +28,8 @@ Next print n integers in the increasing order — the solutions of the given equ
 
 http://codeforces.com/contest/460/problem/B
 
+[1]: http://intgraph.qiniudn.com/little-dima-and-equation-formula.png
+
 [Solution]
 We can't enumerate the value of x because it has a large scope. But the scope of s(x) is tiny that we can find out ``0 <= s(x) <= 81``.
 
@@ -47,5 +49,3 @@ for i in xrange(81 + 1):
 print len(ans)
 print ' '.join(map(str, ans))
 ```
-
-[1]: http://intgraph.qiniudn.com/little-dima-and-equation-formula.png

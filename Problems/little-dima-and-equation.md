@@ -3,9 +3,9 @@ title: Little Dima and Equation
 date: 2014-08-21 14:57:00
 
 [Tags]
-Difficulty: 2.5
-Tags: implementation
-Source: codeforces
+difficulty: 2.5
+tags: implementation
+source: codeforces
 
 [Description]
 Find all integer solutions x (0 < x < 10^9) of the equation:

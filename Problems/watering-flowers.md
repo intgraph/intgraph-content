@@ -1,6 +1,6 @@
 [Metadata]
 title: Watering Flowers
-date: 2014-08-22
+date: 2014-08-22 16:00:00
 
 [Tags]
 categories: binary search, greedy, binary indexed tree

@@ -12,7 +12,7 @@ There's a wierd land, which divided by n distinct lines into different regions.
 
 Your mission is to draw a map that no two neighboring regions share the same color. And two regions are considered neighbors if and only if they have an edge in common.
 
-How many colors will you take to paint a map with n distinct lines.
+**How many** colors will you take to paint a map with n distinct lines?
 
 There are some examples.
 

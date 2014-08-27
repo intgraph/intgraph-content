@@ -35,7 +35,7 @@ If a continuous IP segment starts from ``<L1, R1>`` and end with ``<L2, R2>``, w
 
 As the IP address can be represented as a ``uint32_t`` number, we can make the IP segments as ``<uint32_t, uint32_t>`` pairs. And we sort these pairs by the first element.
 
-When we're seeking a specific IP address, we just use the binary search to find which segment is the IP address is in.
+When we're seeking a specific IP address, we just use the binary search to find which segment the IP address is in.
 
 > Sleepy. (-.-)zzz
 

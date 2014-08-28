@@ -42,10 +42,13 @@ When we're seeking a specific IP address, we just use the binary search (lower_b
 ### Some other solutions
 
 * Segment Tree
-Not bad choice, but it's too heavy in this scenario.
+
+Not a bad choice, but it's too heavy in this scenario.
 
 * Binary Indexed Tree
+
 Is that actually necessary?
 
 * Linear Scan
+
 Rough, Fast, Fierce. (糙快猛 in Chinese)

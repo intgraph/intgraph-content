@@ -65,7 +65,7 @@ int main()
     int n, a, b;
     vec.reserve(SIZE);
     while (T--) {
-		input(n);
+        input(n);
         vec.clear();
         for (int i = 0; i < n; i++) {
             scanf("%d", &a);
@@ -81,10 +81,10 @@ int main()
                 break;
             }
         }
-		for (auto i: vec) {
-			printf("%d ", i);
-		}
-		puts("");
+        for (auto i: vec) {
+            printf("%d ", i);
+        }
+        puts("");
         assert(do_check());
     }
     return 0;

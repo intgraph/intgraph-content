@@ -26,19 +26,23 @@ And the n numbers in the next line indicate how many gums are with the particula
 
 One example:
 
-> Input:
-> 2 2
-> 4 6
-> Output:
-> 3
+```
+Input:
+2 2
+4 6
+Output:
+3
+```
 
 One other example:
 
-> Input:
-> 3 3
-> 6 4 1
-> Output:
-> 6
+```
+Input:
+3 3
+6 4 1
+Output:
+6
+```
 
 [Solution]
 Let's start with the case of twins.

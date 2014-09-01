@@ -15,12 +15,35 @@ It's hard to prove it directly that which a and b will satisfie ``power(a, b) > 
 
 We can make a table to enumerate the answer for some numbers.
 
-| a | b | ans |
-| - | - | - |
-| 1 | 1 | False (1 > 1) |
-| 1 | 2 | False (1 > 2) |
-| 2 | 1 | True (2 > 1) |
-|10 | 100 | True (10^100 > 100^10) |
+<table class="table table-striped-white table-bordered">
+<thead>
+<tr>
+ <th>a</th>
+ <th>b</th>
+ <th>ans</th>
+</tr>
+</thead>
+<tbody><tr>
+ <td>1</td>
+ <td>1</td>
+ <td>False (1 &gt; 1)</td>
+</tr>
+<tr>
+ <td>1</td>
+ <td>2</td>
+ <td>False (1 &gt; 2)</td>
+</tr>
+<tr>
+ <td>2</td>
+ <td>1</td>
+ <td>True (2 &gt; 1)</td>
+</tr>
+<tr>
+ <td>10</td>
+ <td>100</td>
+ <td>True (10^100 &gt; 100^10)</td>
+</tr>
+</tbody></table>
 
 (If you have a Python Intepreter during the interview, you can make out that fast and correctly.)
 

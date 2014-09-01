@@ -55,7 +55,7 @@ The complexity of the problem is that the ``a`` and ``b`` are in the both side o
 
 With the inequality transformation, we can turn the origin problem into this: 
 
-> find out the number of pairs ``<a, b>`` which satisifies ``log(a) / a > log(b) > b``
+> find out the number of pairs ``<a, b>`` which satisifies ``log(a) / a > log(b) / b``
 
 And the final solution is easy and you can make it right here.
 

@@ -15,10 +15,10 @@ Now you have a magic watering machine which can water W contiguous at the same t
 Your mission is to help beaver find the maximum possible final height of the smallest flower in M days.
 
 ### Input
-The first line contains space-separated integers n, m and w (1 ¡Ü w ¡Ü n ¡Ü 10^5; 1 ¡Ü m ¡Ü 10^5). The second line contains space-separated integers a1,?a2,?...,?an (1 ¡Ü ai ¡Ü 10^9).
+The first line contains space-separated integers n, m and w (1 â‰¤ w â‰¤ n â‰¤ 10^5; 1 â‰¤ m â‰¤ 10^5). The second line contains space-separated integers a1,?a2,?...,?an (1 â‰¤ ai â‰¤ 10^9).
 
 ### Output
-Print a single integer ¡ª the maximum final height of the smallest flower.
+Print a single integer â€• the maximum final height of the smallest flower.
 
 ### Sample tests
 ```
@@ -144,3 +144,4 @@ int main()
     return 0;
 }
 ```
+

@@ -4,7 +4,7 @@ date: 2014-08-29 08:56:45
 
 [Tags]
 difficulty: 2.5
-categories: partition， implementation
+categories: partition, implementation
 source: geeksforgeeks, amazon
 
 [Description]

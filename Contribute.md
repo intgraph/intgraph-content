@@ -4,7 +4,7 @@ IntGraph is a cooperative project to share the interview problems. So if you hav
 
 ## How to add a problem
 
-The content of the website is host on [Github][1]. You can send a pull request to update the problem list or fix some typos or mistakes.
+The content of the website is hosted on [Github][1]. You can send a pull request to update the problem list or fix some typos or mistakes in the problems.
 
 ## The format of the problem
 

@@ -1,5 +1,5 @@
 [Metadata]
-title: String Encoding
+title: Alphabetic Encoding
 date: 2014-09-06 23:56:26 
 
 [Tags]

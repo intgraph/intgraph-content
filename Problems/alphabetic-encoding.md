@@ -17,11 +17,11 @@ For example:
 ``` 
 Input: 
 
-"1123"
+1123
 
 Output:
 
-aabc   //a = 1, a = 1, b = 2, c = 3 
+aabc   // a = 1, a = 1, b = 2, c = 3 
 kbc    // since k is 11, b = 2, c= 3 
 alc    // a = 1, l = 12, c = 3 
 aaw    // a= 1, a =1, w= 23 

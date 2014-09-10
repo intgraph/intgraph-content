@@ -1,6 +1,6 @@
 [Metadata]
-title: Rearrange array in alternating positive & negative items
-date: 2014-09-10 08:58:13 
+title: Rearrange array in alternating positive & negative items - 3
+date: 2014-09-10 09:44:23 
 
 [Tags]
 difficulty: 3.5

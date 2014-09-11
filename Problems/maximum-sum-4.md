@@ -34,15 +34,15 @@ link: http://acm.hdu.edu.cn/showproblem.php?pid=1024
 [Solution]
 It's a much harder problem comparing to the previous problems, because we have to find multiple maximum intervals rather than the ONLY one (or two).
 
-Assuming we have already get the maximum sum of j intervals which includes the number i, it number is represent by dp[j][i].
+Assuming we have already get the maximum sum of j intervals which includes the number i, which is represent by dp[j][i].
 
-As a result, ``dp[j][i + 1] = dp[j][i] + array[i + 1]`` and ``dp[j + 1][i] = max(dp[j][0 ... i - 1]) + array[i]``.
+It's not too hard (but hard enough) to find out that ``dp[j][i + 1] = dp[j][i] + array[i + 1]`` and ``dp[j + 1][i] = max(dp[j][0 ... i - 1]) + array[i]``.
 
-This is the main formula of this problem. But some detail and pitfalls must be pay some attention to.
+This is the main formula of this problem. But there are some details and pitfalls must be pay some attention to.
 
-For example, the initial value of the answer can't be 0, because the summary of some interval may be negative number. And the numbers ``dp[j][0...j - 1]`` are not exist because you can separate a sequence of less than j numbers into j parts.
+For example, the initial value of the answer can't be 0, because the summary of some interval may be negative. And the numbers ``dp[j][0...j - 1]`` are **meaningless** because you can separate a sequence of less than j numbers into j parts.
 
-Blahblahblah... Be aware of your codes, and you can get an "Accepted" eventually. 
+Blahblahblah... Be aware of your codes, and you may lost hours on debugging if you have any tiny fault in your codes.
 
 ```cpp
 #include <cstdio>

@@ -4,7 +4,7 @@ date: 2014-09-13 10:21:31
 
 [Tags]
 categories: priority-queue
-difficutly: 3
+difficulty: 3
 source: unknown
 
 [Description]

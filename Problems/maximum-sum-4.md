@@ -1,6 +1,6 @@
 [Metadata]
 title: maximum sum - 4
-date: 2014-9-11 13:43:00
+date: 2014-09-11 13:43:00
 
 [Tags]
 categories: dp

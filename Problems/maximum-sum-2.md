@@ -5,7 +5,7 @@ date: 2014-09-10 23:30:17
 [Tags]
 categories: dp
 difficulty: 3.5
-source: poj, baidu
+source: POJ, baidu
 
 [Description]
 Give you N integers a1, a2 ... aN (|ai| <=1000, 1 <= i <= N). 

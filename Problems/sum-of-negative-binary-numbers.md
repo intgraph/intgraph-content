@@ -5,7 +5,7 @@ date: 2014-10-27 00:26:01
 [Tags]
 difficulty: 3.5
 categories: simulation, math
-source: Algorithms: A Creative Approach
+source: unknown
 
 [Description]
 

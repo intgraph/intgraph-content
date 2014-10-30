@@ -13,9 +13,7 @@ A negative binary number is a binary number which based on -2. For example, [10]
 
 The formula of the negative binary number is like this:
 
-```mathjax
-a =  \sum_{i=0}^n d_i(-2)^i
-```
+![formula-1](http://wizmann-pic.qiniudn.com/7af3059d59dd03f76577e363cff39e16)
 
 You are given two decimal numbers (can be positive, zero or negative), your mission is to (1) convert these two numbers into negative binary numbers, and then (2) calculate and print the sum of the neg-binaries.
 
@@ -45,21 +43,13 @@ But here is a problem, the remainder b of ``a % -2 == b`` might be negative as d
 
 Assuming the ith digit of the negative binary number is x, the (i + 1)th digit is y, and ``x < 0``. So, the ith digit stands for ``(-2) ^ i * x``, the (i+1)th digit stands for ``(-2) ^ (i + 1) * y``. And we can make an equaltion here.
 
-```mathjax
-\begin{equation}
-\begin{split} 
-&(-2)^i * x + (-2)^{i+1} * y \\
-=& (-2)^i * (x + 2) - (-2)^i * 2 + (-2)^{i+1} * y \\
-=& (-2)^i * (x + 2) - (-2)^{i+1} * (y + 1)
-\end{split}
-\end{equation}
-```
+![formula-2](http://wizmann-pic.qiniudn.com/6dd9dee6b58f6566fd9e78b5c98a5d56)
 
 By the equation below, we find a way to deal with the negative reminder. It is essential both when we convert a decimal to negative binary number and sum two negative binary numbers.
 
 The second problem is to sum the two neg-numbers. It's not difficult to get the result following the ordinary steps of calculating the sum of two binary numbers.
 
-However, it's not quite same with the oridary one, as the sum of a some digits could be -1, 2 or 3, we have deal with them properly.
+However, it's not quite same with the ordiary one, as the sum of a some digits could be -1, 2 or 3, we have deal with them properly.
 
 The code is right here.
 

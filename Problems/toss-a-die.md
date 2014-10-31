@@ -13,7 +13,7 @@ Consider the following game. The player tosses a die once only. The payoff is $1
 [Solution]
 ### $3.5 of course.
 
-This is just a warmming up question.
+This is just a warming up question.
 
 This sort of question is common. Begin by caculating the expected payoff to the game. As usual, this is just the summation over the product of potential outcomes times their probability of occurrence:
 

@@ -52,8 +52,8 @@ So the first "partition" manipulation will deal with n elements, and the second 
 ```mathjax
 \begin{equation}
 \begin{split}
-T &= \frac{1 - q^n}{1 - q} * n \quad(q = \frac{1}{2}) \\
-  &= \frac{1 - \frac{1}{2}^n}{\frac{1}{2}} * n \\
+T &= \frac{1 - q^n}{1 - q} * n \quad(q = \frac{1}{2}) \\\\
+  &= \frac{1 - \frac{1}{2}^n}{\frac{1}{2}} * n \\\\
   &= 2n 
 \end{split}
 \end{equation}

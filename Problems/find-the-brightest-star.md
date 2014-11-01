@@ -7,7 +7,7 @@ difficulty: 3.5
 categories: mathmatical induction, graph
 source: mitbbs
 
-## Description
+[Description]
 
 There is another party held on another backyard. All the participants are stars. During the party, they want to find out who is the most popular star, that is, everyone considers that the brightest star is more famous than himself/herself.
 
@@ -15,7 +15,7 @@ There's a function ``cmp(a, b)`` helps us to compare who is more famous. However
 
 Please find a way to solve this problem as fast as possible.
 
-## Solution
+[Solution]
 
 This problem is quite same as "Find the Star". It is because if ``cmp(a, b) < 0`` which means that the star ``a`` considers ``b`` is more popular. As a result, star ``a`` can't be the brightest star in the party.
 

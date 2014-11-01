@@ -59,4 +59,4 @@ T &= \frac{1 - q^n}{1 - q} * n \quad(q = \frac{1}{2}) \\\\
 \end{equation}
 ```
 
-So the time complexity here we prove is O(N). However, the worst case will lead to an algorithm runs in O(N*2) time.
+So the time complexity here we prove is O(N). However, the worst case will lead to an algorithm runs in O(N^2) time.

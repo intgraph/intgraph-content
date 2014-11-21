@@ -23,7 +23,7 @@ Now give you N kinds of elements, and how many distinct multiset can be formed? 
 
 Try no to treat this problem as an ordinary combination problem. But it may lead you a deadend.
 
-Consider this. The multiset can be present in this way $S = \{x1 \cdot a1 + x2 \cdot a2 + \ ...\}$. And it's easy for us to know that $m = \sum(a_1...a_n)$. As a result, the problem can be solve by partition the m numbers into n parts. Since n might greater than m, so there may be some part which is empty.
+Consider this. The multiset can be present in this way $S = \\{x1 \cdot a1 + x2 \cdot a2 + \cdots\\}$. And it's easy for us to know that $m = \sum(a_1...a_n)$. As a result, the problem can be solve by partition the m numbers into n parts. Since n might greater than m, so there may be some part which is empty.
 
 Seperating m number in to n parts need (n - 1) delimiters. So the final result is like this.
 

@@ -54,6 +54,7 @@ public class Solution {
     public TreeNode maxTree(int[] A) {
         int n = A.length;
         TreeNode root = null;
+        stack = new Stack<TreeNode>();
         for (int i = 0; i < n; i++) {
             root = insert(root, A[i]);
         }

@@ -18,18 +18,7 @@ Please construct the max tree by the given array.
 
 For example, the max tree for [2, 5, 6, 0, 3, 1] is:
 
-```
-
-              6
-
-            /    \
-
-          5       3
-
-        /       /   \
-
-      2       0       1
-```
+![max-tree](http://wizmann-pic.qiniudn.com/b53706e9543002d016a392a55fcc01c1)
 
 [Solution]
 

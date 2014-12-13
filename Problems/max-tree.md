@@ -19,6 +19,7 @@ Please construct the max tree by the given array.
 For example, the max tree for [2, 5, 6, 0, 3, 1] is:
 
 ```
+
               6
 
             /    \

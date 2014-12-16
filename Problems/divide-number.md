@@ -34,7 +34,7 @@ def divide(a, b):
 
 But if we come across a circulating one, our algorithm will looping infinitely. All we have to do, is to find the begining and the end of the loop to make the algorithm stop.
 
-Consider this scenario, $a_i$ stands for the value of a in the ith iteration of the `while` loop in that code above, and $c_i$ stands for the very result digit. So if $a_i = a_j$, we can easily get $c_i = c_j$, and $c\_{i+k} = c\_{j+k}$. That is, if we get $a_i = a_j$，the number from `i` to `j - 1` will be the **recurring period**.
+Consider this scenario, $a\_i$ stands for the value of a in the ith iteration of the `while` loop in that code above, and $c\_i$ stands for the very result digit. So if $a_i = a_j$, we can easily get $c\_i = c\_j$, and $c\_{i+k} = c\_{j+k}$. That is, if we get $a\_i = a\_j$，the number from `i` to `j - 1` will be the **recurring period**.
 
 And here is the final code:
 

@@ -4,7 +4,7 @@ date: 2014-10-01 23:07:29
 
 [Tags]
 difficulty: 4
-categories: segment-tree, divide-and-conquer, data structure
+categories: segment-tree, divide-and-conquer, data structures
 source: Algorithms: A Creative Approach
 
 [Description]

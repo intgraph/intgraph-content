@@ -4,7 +4,7 @@ date: 2014-11-21 09:28:32
 
 [Tags]
 difficulty: 4.5
-categories: combination
+categories: combinatorics
 source: zhihu
 
 [Description]

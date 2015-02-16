@@ -4,7 +4,7 @@ date: 2014-08-27 23:14:09
 
 [Tags]
 difficulty: 2.5
-categories: hash, data sturctures
+categories: hash, data structures
 source: baidu
 
 [Description]

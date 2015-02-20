@@ -30,7 +30,7 @@ banana
 
 Accroding to "suffix match", it's not hard to associate the "prefix match". And "prefix match" is the basic concept of the **KMP algorithm**. If we can get the "prefix match" of a string, the "suffix match" is the "prefix match" of the reversed string.
 
-The algorith for KMP is like here below. The prefix match of the position `i` is `str[next[i]:i]`.
+The algorith for KMP is like here below. The prefix match of the position `i` is `str[i - next[i]:i]`.
 
 ```cpp
 void get_next(const string& needle) {

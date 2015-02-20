@@ -54,7 +54,7 @@ For example, the `next` array of the word `banana` is: `[-1, 0, 0, 0, 0, 0, 0]`,
 
 And we can get all the prefix match like this:
 
-```
+```python
 def get_prefix_match(S):
     nexts = get_next(S)
     print S
@@ -68,7 +68,7 @@ def get_prefix_match(S):
 
 And the suffix match is the prefix match of the reversed string.
 
-```
+```python
 def get_next(needle):
     l = len(needle)
     nexts = [0 for i in xrange(l + 1)]

@@ -19,10 +19,10 @@ The input will give the number N and M, your mission is to calculate the number 
 
 ```
 >> INPUT
-10 3
+8 12
 
 << OUTPUT
-27
+50388
 ```
 [Solution]
 
@@ -33,7 +33,7 @@ Consider this. The multiset can be present in this way $S = \\{x1 \cdot a1 + x2 
 Seperating m number in to n parts need (n - 1) delimiters. So the final result is like this.
 
 ```mathjax
-ans =  \mathrm C_m^{n + m - 1}
+ans =  \mathrm C_{n + m - 1}^m
 ```
 
 For example, we want to fill a bag(multiset) of size 12 with 8 types of items.

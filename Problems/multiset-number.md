@@ -9,13 +9,13 @@ source: zhihu
 
 [Description]
 
-In mathematics, the notion of multiset (or bag) is a generalization of the notion of a set in which members are allowed to appear multiple times or zero times. The number of each item is infinity.
+In mathematics, the notion of multiset (or bag) is a generalization of the notion of a set in which members are allowed to appear multiple times or zero times.
 
-Now give you N kinds of elements, and how many distinct multiset of set M can be formed?
+Now give you N kinds of elements, and how many distinct multiset of size M can be formed?
 
 **The order of the element is irrelevant.**
 
-The input will give the N and M, your mission is to calculate the number of distinct multiset.
+The input will give the number N and M, your mission is to calculate the number of distinct multiset.
 
 ```
 >> INPUT

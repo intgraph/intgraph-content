@@ -50,16 +50,16 @@ I find an excellent [tutorial](http://codeforces.com/blog/entry/10476) for this 
 
 For every two cows in that line. We get four scenarios.
 
-1. <left, left>      
+1. \<left, left\>      
 We can start from the rightmost one. And no milk will be losed.
 
-2. <left, right>     
+2. \<left, right\>     
 `<, >`. This two cows can't see each other. Arbitrary order will do.
 
-3. <right, right>     
+3. \<right, right\>     
 Similar to scenario 1, start from the leftmost one.
 
-4. <right, left>      
+4. \<right, left\>      
 `>, <`. This one is special, becase we can't make any strategy to avoid losing any milk. So, when we come across this kind of pair of cows. Add 1 to the final results.
 
 And with some optimization tricks. We can find the final solution with O(n) time complexity and O(1) extra memory space.

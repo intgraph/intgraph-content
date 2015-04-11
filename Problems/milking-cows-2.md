@@ -5,7 +5,7 @@ date: 2015-04-10 22:48:01
 [Tags]
 difficulty: 3
 categories: greedy
-source: Codeforces
+source: codeforces
 
 [Description]
 

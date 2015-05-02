@@ -11,7 +11,10 @@ source: sgu
 
 The sequence of non-negative integers A1, A2, ..., AN is given. You are to find a sebset of the sequence, such that the xor of the subset has a maximum value.
 
+**The length of the sequence N could be up to 100.**
+
 Sample test(s)
+
 ```
 Input
 3       <- The length of the sequence

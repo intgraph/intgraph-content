@@ -14,15 +14,7 @@ Therefore, cow i can see the tops of the heads of cows in front of her (namely c
 
 For example,
 
-```
-        =
-=       =
-=   -   =         Cows facing right -->
-=   =   =
-= - = = =
-= = = = = =
-1 2 3 4 5 6 
-```
+![1](http://wizmann-pic.qiniudn.com/77bc0d0ffa662eb4dd6bd29cd9432d64)
 
 * Cow#1 can see the hairstyle of cows #2, 3, 4
 * Cow#2 can see no cow's hairstyle
@@ -33,12 +25,16 @@ For example,
 
 ### Sample Input
 
+```
 6
 10 3 7 4 12 2
+```
 
 ### Sample Output
 
+```
 5
+```
 
 Link: http://poj.org/problem?id=3250
 

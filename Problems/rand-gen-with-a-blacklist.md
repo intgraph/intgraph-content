@@ -2,6 +2,11 @@
 title: Random Generator with a Blacklist
 date: 2015-05-17 00:40:38 
 
+[Tags]
+difficulty: 4
+categories: binary search, hash, thinking in reverse
+source: Google
+
 [Description]
 
 Your mission is to design a random generator with a given blacklist. That is, to generate random positive numbers with equal possibilities except the number on the blacklist.

@@ -29,7 +29,7 @@ However, this design has one problem that the latency will be much higher than a
 
 ![Alt text](http://wizmann-pic.qiniudn.com/e43601d07ccea0325dede8cf72f82213)
 
-That is unacceptable. The average response time is low, and it's find. But the 99 percentile of the response time is much higher. And be ware, the system is serving all the customers rather than half of them or less.
+That is unacceptable. The average response time is low, and it's fine. But this method suffers a performance jitter which may cause a bad user experience of the whole system.
 
 There is another design. The client set a threshold of the remaining random numbers. If there are less numbers than the threshold, it will ask the server for another batch. This will do the trick to reduce the response time caused by network communication.
 

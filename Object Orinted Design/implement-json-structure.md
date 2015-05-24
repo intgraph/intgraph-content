@@ -38,6 +38,9 @@ json_dict: json_dict "," json_node
 
 json_node: json_key ":" json_value
 
+json_array: json_array "," json_value
+          | json_value
+
 json_value: json_scalar
           | json_string
           | json_array

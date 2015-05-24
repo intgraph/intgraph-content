@@ -26,7 +26,7 @@ There are some basic type here in the picture.
 
 And after all, all these elements are set in a large dict, and this dict is our json string.
 
-We can represent json structure with a yacc grammar. (Maybe not a precise yacc grammar acturally.)
+We can represent json structure with a yacc grammar. (Maybe not a precise yacc grammar actually.)
 
 ```
 json : json_dict

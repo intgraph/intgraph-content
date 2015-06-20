@@ -20,6 +20,7 @@ The range of m is $[2, 10^9]$ inclusively, and the range of w is $[2, 10^9]$ inc
 If there is a way to represent m, print `YES`, if not, print `NO`.
 
 Sample Input/Output
+
 ```
 > Input
 > 3 7
@@ -42,22 +43,6 @@ Sample Input/Output
 Source: [Codeforces Round #308 (Div. 2) - C. Vanya and Scales][1]
 
 [1]: http://codeforces.com/contest/552/problem/C
-
-### Input & Output
-
-The input will contain many cases, each case has two numbers in a line.
-
-The output will contain a negative binary number per line, which is the sum of the two numbers.
-
-```
-> Sample Input
--2 -2
--10 12
-
-> Sample Output    
-1100        
-110
-```
 
 [Solution]
 

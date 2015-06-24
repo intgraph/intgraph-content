@@ -5,7 +5,7 @@ date: 2015-05-17 00:40:38
 [Tags]
 difficulty: 4
 categories: binary search, hash, thinking in reverse
-source: Google
+source: google
 
 [Description]
 

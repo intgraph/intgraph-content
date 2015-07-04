@@ -16,6 +16,7 @@ Now we have the positions and the radiuses of these circles. Please find out how
 ![two separating circles][1]
 
 Sample Input & Output
+
 ```
 >> Input
 4
@@ -26,6 +27,7 @@ Sample Input & Output
 << Output
 1
 ```
+
   [1]: http://wizmann-pic.qiniudn.com/a30dcb0060c2bb2d55bf6031c4c2254b
   
 [Solution]

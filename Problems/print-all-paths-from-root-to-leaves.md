@@ -16,12 +16,13 @@ Follow up:
 It's easy to solve the problem recursively. But can you deal with it iteratively.
 
 ```
-
+/*
       A
      / \
    B     C
    \     /
     D   E
+*/
 ```
 
 [Solution]

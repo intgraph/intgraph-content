@@ -1,6 +1,6 @@
 [Metadata]
 title: Print All Paths from Root to Leaves
-date: 2015-07-17 00:36
+date: 2015-07-17 00:36:00
 
 [Tags]
 difficulty: 3.5
@@ -16,6 +16,7 @@ Follow up:
 It's easy to solve the problem recursively. But can you deal with it iteratively.
 
 ```
+
       A
      / \
    B     C

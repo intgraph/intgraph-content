@@ -5,7 +5,7 @@ date: 2015-06-25 00:14:46
 [Tags]
 difficulty: 3
 categories: binary tree, lca, tree
-source: lintcode
+source: Lintcode
 
 [Description]
 

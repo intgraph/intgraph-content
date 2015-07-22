@@ -5,7 +5,7 @@ date: 2015-07-20 10:00:22
 [Tags]
 difficulty: 3.5
 categories: implementation
-source: Google
+source: google
 
 [Description]
 

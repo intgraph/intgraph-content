@@ -5,7 +5,7 @@ date: 2015-07-04 23:24:17
 [Tags]
 difficulty: 4
 categories: two-pointers
-source: lintcode
+source: Lintcode
 
 [Description]
 

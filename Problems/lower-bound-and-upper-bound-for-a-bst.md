@@ -18,11 +18,13 @@ The behavior of the functions are similar to `std::lower_bound` and `std::upper_
 For example,
 
 ```
+/*
                       3
                     /   \
                     2    4
                    / \    \
 lower_bound(2) ->  2 2    8 <- upper_bound(4)
+*/
 ```
 
 The `lower_bound(2)` function should return the pointer to the lowest node with value `2`. And `upper_bound(4)` should return the lowest node with value `8`.

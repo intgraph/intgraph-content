@@ -36,21 +36,21 @@ The `content` can be a simple tweet, a blog, a url or a picture.
 We use SQL database as the backend storage engine. So we can design our database schema for the newsfeed system.
 
 | UserID | Name | Age | Sex |
-|-|
+| --- | --- | --- | --- |
 | 1 | Alice | 20 | F |
 | 2 | Bob | 21 | M |
 
 | FriendshipID | FromUser | ToUser |
-|-|
+| --- | --- | --- |
 | 1 | 1 | 2 |
 | 2 | 2 | 1 |
 
 | FeedID | UserID | Time | ContentID |
-|-|
+| --- | --- | --- | --- |
 | 1 | 1 | 2015-01-01 | 1 |
 
 | ContentID | Type | Content |
-|-|
+| --- | --- | --- |
 | 1 | Tweet | "hello world" |
 
 ### Get the newsfeed
@@ -87,7 +87,7 @@ One good practise to speed up the database accessing is to use cache. The advant
 We design a mailbox services that collects all the news feed that belongs to one user to his/her mailbox.
 
 | UserID | FeedIDList |
-|-|
+| --- | --- |
 | 1 | [2, 3, 4 ...] |
 | 2 | [1, 4, 10 ...] |
 
@@ -142,7 +142,7 @@ using deduplicate and compression the string could save memory up to 90% (this d
 ### The comparison between the "push" and "pull"
 
 | - | Push | Pull |
-| - |
+| --- | --- | --- |
 | real-time | OK except some "star users"| Good |
 | server status | keeping pushing status (SUCC/FAIL) | N/A |
 | client status | N/A | keep current data |

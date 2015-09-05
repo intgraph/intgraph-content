@@ -8,7 +8,7 @@ categories: MST
 source: google
 
 
-## Description
+[Description]
 
 MST, a.k.a minimum spanning tree, is a subgraph connects all the vertices in an undirected graph with minimum weight.
 
@@ -22,7 +22,7 @@ The mission is to rebuild the MST with the minimum cost (both space and time).
 
 The simple way to solve the problem is build the MST on the new graph, and we all know that too well. Your algorithm must be more optimal than that.
 
-## Solution
+[Solution]
 
 First, let recall the methods to get a MST. *Prim* and *Kruskal* are two commonly used algorithm for a MST. The time complexity of Prim is $O(V^2)$, or $O(E log(V))$ with a binary heap. And the time complexity of Kruskal is $O(ElogE) = O(ElogV)$ because there is a sort operation in the algorithm.
 

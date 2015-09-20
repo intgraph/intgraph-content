@@ -9,7 +9,7 @@ source: 51nod
 
 [Description]
 
-Given a batch of segments, please find a subset of the segments which are not overlaped.
+Given a batch of segments, please find the largest subset of the segments which are not overlaped.
 
 The definition of overlap is for segment "[a, b]" and "[c, d]", there is always `(c - a) * (c - b) >= 0 && (d - a) * (d - b) >= 0`. That is, "[1, 2]" and "[2, 3]" is not overlaped, at time same time "[1, 3]" and "[2, 3]" is overlaped.
 

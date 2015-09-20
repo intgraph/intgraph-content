@@ -5,7 +5,7 @@ date:  2015-07-09 09:33:05
 [Tags]
 difficulty: 4
 categories: deque, induction
-source: mitbbs, google
+source: mitbbs, anonymous
 
 [Description]
 

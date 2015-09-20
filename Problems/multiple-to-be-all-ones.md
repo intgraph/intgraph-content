@@ -5,7 +5,7 @@ date: 2014-08-16 15:58:00
 [Tags]
 difficulty: 3
 categories: math
-source: itint5, google
+source: itint5, anonymous
 
 [Description]
 Given a number **a** (1 <= a <= 10^6), the mission to find the a number **b** that ``a * b`` equals to a number is consists of only ones.

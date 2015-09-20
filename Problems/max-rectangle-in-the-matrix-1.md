@@ -5,7 +5,7 @@ date: 2015-04-09 09:46:08
 [Tags]
 difficulty: 2.5
 categories: matrix
-source: google, mitbbs
+source: anonymous, mitbbs
 
 [Description]
 Given a matrix with only `0` and `1`. Please find out if there is a rectangle that all its vertices is the number `1`.

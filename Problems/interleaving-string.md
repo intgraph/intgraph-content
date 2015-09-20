@@ -5,7 +5,7 @@ date: 2014-08-16 17:14:25
 [Tags]
 difficulty: 3
 categories: dp
-source: Leetcode, itint5, google
+source: Leetcode, itint5, anonymous
 
 [Description]
 Given s1, s2, s3, find whether s3 is formed by the interleaving of s1 and s2.

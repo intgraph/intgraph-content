@@ -5,7 +5,7 @@ date: 2014-12-17 00:31:19
 [Tags]
 difficulty: 2.5
 categories: math, hash, string
-source: mitbbs, google
+source: mitbbs, anonymous
 
 [Description]
 

@@ -5,7 +5,7 @@ date: 2014-11-24 00:19:47
 [Tags]
 difficulty: 2.5
 categories: array
-source: mitbbs, google
+source: mitbbs, anonymous
 
 [Description]
 

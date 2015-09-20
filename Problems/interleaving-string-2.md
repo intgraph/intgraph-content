@@ -5,7 +5,7 @@ date: 2014-12-07 21:57:14
 [Tags]
 difficulty: 4
 categories: recursion
-source: mitbbs, google
+source: mitbbs, anonymous
 
 [Description]
 

@@ -5,7 +5,7 @@ date: 2015-07-16 01:09:00
 [Tags]
 difficulty: 3.5
 categories: math
-source: Leetcode, google
+source: Leetcode, anonymous
 
 [Description]
 

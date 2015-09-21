@@ -5,7 +5,7 @@ date: 2015-08-15 13:33:08
 [Tags]
 difficulty: 3
 categories: dp
-source: Leetcode, facebook, linkedin
+source: Leetcode, Facebook, linkedin
 
 [Description]
 

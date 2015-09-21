@@ -5,7 +5,7 @@ date: 2014-11-02 01:11:39
 [Tags]
 difficulty: 3.5
 categories: partition, quick-sort
-source: mitbbs, facebook, baidu, vintage
+source: mitbbs, Facebook, baidu, vintage
 
 [Description]
 

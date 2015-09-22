@@ -1,10 +1,10 @@
 [Metadata]
-title: lost number
-date: 2014-09-15 23:23:47 
+title: lost number - 1
+date: 2014-09-15 23:23:47
 
 [Tags]
-difficulty: 3.5
-categories: radix-sort, in-place algorithm
+difficulty: 3
+categories: radix sort, in-place algorithm
 source: 待字闺中
 
 [Description]
@@ -68,4 +68,3 @@ for i in xrange(100):
     print ' '.join(map(str, ns))
     print v # <= answer
 ```
-

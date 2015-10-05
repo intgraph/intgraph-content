@@ -3,8 +3,8 @@ title: Non-overlaped segments
 date: 2015-09-19 20:14:46
 
 [Tags]
-difficulty: 2.5
-categories: sorting
+difficulty: 3
+categories: sorting, stack
 source: 51nod
 
 [Description]

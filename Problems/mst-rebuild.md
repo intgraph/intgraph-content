@@ -26,13 +26,13 @@ The simple way to solve the problem is build the MST on the new graph, and we al
 
 First, let recall the methods to get a MST. *Prim* and *Kruskal* are two commonly used algorithm for a MST. The time complexity of Prim is $O(V^2)$, or $O(E log(V))$ with a binary heap. And the time complexity of Kruskal is $O(ElogE) = O(ElogV)$ because there is a sort operation in the algorithm.
 
-As we described above, the brute force way to solve the problem, that is, find out the new MST in the new graph, has the time complexity $O(ElogV)$. It's not a slow one, but we need something cool.
+As we described above, the brute force way to solve the problem, that is, find out the new MST in the new graph, has the time complexity $O(ElogV)$. It's not a slow one, but we need something cooler.
 
-![Alt text](http://wizmann-pic.qiniudn.com/13cbeeb3d38a316f8d6c720727e6ef0f)
+Suppose we add a node "X" into the original graph, and now we have a new edge list.
 
-Suppose we've already got a MST with a root called "A" (of course, any point in the MST could be the root). And we add one new vertex called "X". According to the principle of Prim and Kruskal algorithm, we can't simply add this vertex and the edges connects to it into the current MST.
+Think about the principle about the Kruskal algorithm. We keep adding the minimal edge into the graph to build the "miminal spanning forest" until we make the forest into a tree. That is, if two node are connected before the current edge is added, this edge will keep unused.
 
-For a MST, every sub-tree of the MST is a sub-MST. As a result, as we set the new vertex "X" as the root of the MST, "X" connects to some sub-MST. And it's easy to know that every edges of the sub-MST only contains the edges belongs to the original MST.
+In our scenario, it's not hard to point out that the order of "original edges" will stay the same. So, before an unused edge "<A, B>" is added into the graph, the node "A" and "B" must be connected. So the unused edge in the origial MST will keep unused in the new MST.
 
 So, we can design our algorithm like this:
 

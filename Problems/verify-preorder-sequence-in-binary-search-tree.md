@@ -11,7 +11,7 @@ source: Leetcode
 
 You have an array of preorder traversal of Binary Search Tree ( BST). Your program should verify whether it is a correct sequence or not.
 
-Input: Array of Integer [ Pre-order BST ]
+Input: Array of Integer [ Pre-order BST ]      
 Output: String “Yes” or “No”
 
 ```

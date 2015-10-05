@@ -19,7 +19,7 @@ Design a music player like Winamp.
 ### 1. Requirement analysis
 
 | Requirements | Solutions |
-| - | - |
+| --- | --- |
 | Play music | Use the api to play audio file |
 | Show the info of the playing music file | load the info from the file, and use a timer to show the play time / remain time |
 | Control the volumn (and some other properties) | use the api provided by the audio playing api |

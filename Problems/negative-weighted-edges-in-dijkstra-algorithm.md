@@ -37,4 +37,4 @@ The conclusion is, if the newly added negative weighted edge doesn't interfere w
 
 ![](http://wizmann-pic.qiniudn.com/17-2-19/77276054-file_1487487604753_e855.png)
 
-![](http://wizmann-pic.qiniudn.com/17-2-19/98544718-file_1487487681018_13bb.png)
+![](http://wizmann-pic.qiniudn.com/17-2-21/92230997-file_1487688686047_15ab.png)

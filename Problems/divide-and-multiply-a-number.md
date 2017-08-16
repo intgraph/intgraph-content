@@ -32,6 +32,6 @@ with ``2 * x + 3 * y == n`` and ``y`` should be as large as possible.
 
 Here I give a simple (maybe not right) proof.
 
-The inequality ``(n - x) * x > x`` is true when ``x >= 2`` and ``x <= n - 2``. And it shows that if a number can be divided, then do divide it.
+The inequality ``(n - x) * x > n`` is true when ``x >= 2`` and ``x <= n - 2``. And it shows that if a number can be divided, then do divide it.
 
 Finally, we get a number of ``2s`` and ``3s``. And it's easy for us that ``2 * 2 * 2 = 8 < 9 = 3 * 3``, so we must turn ``2s`` into ``3s`` as much as possible to make the maximum final result.

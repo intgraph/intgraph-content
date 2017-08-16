@@ -70,7 +70,7 @@ For the new comer, we will discard it with possibility `(n - k) / n`. Becase, th
 
 For the numbers in the result list, the possibility for a number to stay in the result list is:
 
-![](http://wizmann-pic.qiniudn.com/15-10-18/28010464.jpg)
+![](http://wizmann-pic.qiniudn.com/17-8-16/39665557.jpg)
 
 From Case1 & Case2, we can easily find out that the solution above is proved to be correct.
 

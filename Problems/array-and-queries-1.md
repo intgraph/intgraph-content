@@ -29,6 +29,7 @@ The element of the array would be in the range of `[1, 10^9]`.
 
 ```
 Sample Input
+2
 3
 1 2 3
 5
@@ -70,6 +71,8 @@ def solve(ns):
 if __name__ == '__main__':
     T = int(raw_input())
     for case_ in xrange(T):
+        n = int(raw_input())
         ns = sorted(map(int, raw_input().split()))
+        assert len(ns) == n
         print solve(ns)
 ```

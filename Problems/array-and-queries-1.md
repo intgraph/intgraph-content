@@ -71,8 +71,41 @@ def solve(ns):
 if __name__ == '__main__':
     T = int(raw_input())
     for case_ in xrange(T):
-        n = int(raw_input())
         ns = sorted(map(int, raw_input().split()))
-        assert len(ns) == n
+        print solve(ns)
+```
+
+The time complexity and space complexity of this solution are both `O(n)`. However, there is a better solution which can elimiate the cost of extra memory space. The idea could be developed from this illustration for array `[1, 1, 2, 3, 3, 3, 4, 4, 6]`:
+
+![](http://wizmann-pic.qiniudn.com/18-2-3/98499222.jpg)
+
+It's easy to convert the array into a histogram based on the frequency of each number. And we can find out that per unit length of **rising edge** represents a segment of numbers which make up a "beautiful subset". As a result, the origin version problem has reduced to a new problem which is counting the "rasing edges".
+
+Here is the new solution with space complexity `O(1)` and time complexity `O(n)`:
+
+```python
+INF = 10 ** 10
+
+def solve(ns):
+    ns.append(INF)
+    pre, pre_count = -INF, 0
+    cur, cur_count = ns[0], 0
+    ans = 0
+    for num in ns:
+        if num != cur:
+            if cur == pre + 1:
+                ans += max(0, cur_count - pre_count)
+            else:
+                ans += cur_count
+            pre, pre_count = cur, cur_count
+            cur, cur_count = num, 0
+        cur_count += 1
+    ns.pop()
+    return ans
+
+if __name__ == '__main__':
+    T = int(raw_input())
+    for case_ in xrange(T):
+        ns = sorted(map(int, raw_input().split()))
         print solve(ns)
 ```
